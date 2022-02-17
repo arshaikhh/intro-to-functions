@@ -10,6 +10,6 @@ function longestInList(WORDS) {
 
 //test cases:
 //===========
-console.log("longestInList([\"England\", \"Wales\", \"Scotland\", \"Northern Ireland])\" should be "+longestInList(["England", "Wales", "Scotland", "Northern Ireland"])) 
-console.log("longestInList([\"the\", \"quick\", \"brown\", \"fox\"]) should be " + longestInList(["the", "quick", "brown", "fox"]))
-console.log("longestInList([\"hello\", \"hi\", \"greetings\", \"hey\"]) should be "+ longestInList(["hello", "hi", "greetings", "hey"]))
+console.log(longestInList(["England", "Wales", "Scotland", "Northern Ireland"]) + " should be Northern Ireland")
+console.log(longestInList(["the", "quick", "brown", "fox"]) + " should be quick")
+console.log(longestInList(["hello", "hi", "greetings", "hey"]) + " should be greetings")
